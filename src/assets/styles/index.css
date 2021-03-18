@@ -1,5 +1,12 @@
 /* stylelint-disable selector-max-type, selector-class-pattern */
 
+@import "~@fontsource/roboto/100.css";
+@import "~@fontsource/roboto/300.css";
+@import "~@fontsource/roboto/400.css";
+@import "~@fontsource/roboto/500.css";
+@import "~@fontsource/roboto/700.css";
+@import "~@fontsource/roboto/900.css";
+
 /**
  * This injects Tailwind's base styles and any base styles registered by
  * plugins.
@@ -24,9 +31,12 @@
  */
 @tailwind screens;
 
-/*body {*/
-/*    @apply font-sans antialiased;*/
-/*}*/
+body {
+    @apply font-sans antialiased;
+    /*@apply font-sans;*/
+    /*@apply antialiased*/
+    font-family: "Roboto", sans-serif;
+}
 
 /*h1 {*/
 /*    @apply text-4xl;*/

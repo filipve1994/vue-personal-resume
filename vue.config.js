@@ -5,6 +5,7 @@ module.exports = {
         : '/',
     devServer: {
         host: "localhost",
+        port: 8081,
         overlay: {
             warnings: false,
             errors: false
