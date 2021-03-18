@@ -9,13 +9,14 @@ const routes = [
   //   name: "Home",
   //   component: Home,
   // },
-  {
-    path: "/",
-    name: "Resume",
-    component: Resume,
-  },
+  // {
+  //   path: "/",
+  //   name: "Resume",
+  //   component: Resume,
+  // },
   {
     path: "/resume2",
+    alias: '/',
     name: "Resume2",
     component: Resume2,
   },

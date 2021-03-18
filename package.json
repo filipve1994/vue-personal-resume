@@ -17,6 +17,9 @@
     "@fortawesome/vue-fontawesome": "^3.0.0-3",
     "@tailwindcss/typography": "^0.4.0",
     "core-js": "^3.6.5",
+    "gsap": "^3.6.0",
+    "leader-line-new": "^1.1.9",
+    "lodash": "^4.17.21",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"

@@ -84,29 +84,29 @@
   <!--https://laravel-news.com/tailwind-css-tips-and-tricks -->
   <!-- Container -->
   <!--  <div class="max-w-screen-2xl mx-auto px-4">-->
-<!--  <div class="w-10/12 mx-auto px-4">-->
-<!--    &lt;!&ndash; Grid wrapper &ndash;&gt;-->
-<!--    <div class="-mx-4 flex flex-wrap">-->
+  <!--  <div class="w-10/12 mx-auto px-4">-->
+  <!--    &lt;!&ndash; Grid wrapper &ndash;&gt;-->
+  <!--    <div class="-mx-4 flex flex-wrap">-->
 
-<!--      &lt;!&ndash; Grid column &ndash;&gt;-->
-<!--      <div class="flex flex-col p-4 w-1/2" style="background-color: #e76e3c;">-->
-<!--        &lt;!&ndash; Column contents &ndash;&gt;-->
-<!--        <div class="flex-1 px-10 py-12 bg-white rounded-lg shadow-lg">-->
-<!--          &lt;!&ndash; Card contents &ndash;&gt;-->
-<!--        </div>-->
-<!--      </div>-->
+  <!--      &lt;!&ndash; Grid column &ndash;&gt;-->
+  <!--      <div class="flex flex-col p-4 w-1/2" style="background-color: #e76e3c;">-->
+  <!--        &lt;!&ndash; Column contents &ndash;&gt;-->
+  <!--        <div class="flex-1 px-10 py-12 bg-white rounded-lg shadow-lg">-->
+  <!--          &lt;!&ndash; Card contents &ndash;&gt;-->
+  <!--        </div>-->
+  <!--      </div>-->
 
-<!--      &lt;!&ndash; Grid column &ndash;&gt;-->
-<!--      <div class="flex flex-col p-4 w-1/2" style="background-color: #e76e3c;">-->
-<!--        &lt;!&ndash; Column contents &ndash;&gt;-->
-<!--        <div class="flex-1 px-10 py-12 bg-white rounded-lg shadow-lg">-->
-<!--          &lt;!&ndash; Card contents &ndash;&gt;-->
-<!--        </div>-->
-<!--      </div>-->
+  <!--      &lt;!&ndash; Grid column &ndash;&gt;-->
+  <!--      <div class="flex flex-col p-4 w-1/2" style="background-color: #e76e3c;">-->
+  <!--        &lt;!&ndash; Column contents &ndash;&gt;-->
+  <!--        <div class="flex-1 px-10 py-12 bg-white rounded-lg shadow-lg">-->
+  <!--          &lt;!&ndash; Card contents &ndash;&gt;-->
+  <!--        </div>-->
+  <!--      </div>-->
 
-<!--    </div>-->
+  <!--    </div>-->
 
-<!--  </div>-->
+  <!--  </div>-->
 
 
   <!--  -->
@@ -548,7 +548,7 @@
 
             <!--            -->
 
-            <div class="skills p-4">
+            <div class="skills p-4" id="to-timeline">
               <div class="flex flex-initial">
                 <h3 class="text-2xl mb-6 border-b-2 border-solid border-gray-400 text-gray-600 font-light mb-1">Skills
                   and Expertize</h3>
@@ -573,7 +573,7 @@
                       <!--  https://tailwindcomponents.com/component/progress-bar-1 -->
                       <div class="mt-0 bg-gray-600 bg-gray-700 rounded-full bg-opacity-30" style="height: 3px;">
                         <div class="w-9/12 mt-0 bg-gray-700 py-1 rounded-full"></div>
-<!--                        <div class="w-9/12 mt-0 bg-gray-700 py-1 rounded-full" style="width: 95%;"></div>-->
+                        <!--                        <div class="w-9/12 mt-0 bg-gray-700 py-1 rounded-full" style="width: 95%;"></div>-->
                       </div>
 
                     </div>
@@ -878,6 +878,100 @@
 
       </div>
 
+      <div class="layout -mx-4 flex bg-warmGray-50">
+
+        <div class="flex flex-wrap overflow-hidden  p-4">
+
+          <div id="timeline" class="w-full mb-4 flex-auto bg-white rounded-lg shadow-lg" style="height:400px;">
+
+            <div class="whoami p-4" id="to-portfolio">
+              <div class="flex flex-initial" id="portfolio">
+                <h3 class="text-2xl mb-6 border-b-2 border-solid border-gray-400 text-gray-600 font-light mb-1">
+                  Portfolio</h3>
+              </div>
+
+              <div class="">
+                <p>I'm a developer born in Iran and founder of Delix.ir, Bytegate.io and Bobet.ir and co-founder of
+                  Smo.li.</p>
+                <p>I'm interested and skilled in different topics of Information Technology, including programming, web
+                  development, and computer and network security.</p>
+              </div>
+            </div>
+
+
+          </div>
+
+          <div class="w-full mb-4 flex-auto bg-white rounded-lg shadow-lg" style="height:400px;">
+
+            <div class="whoami p-4">
+              <div class="flex flex-initial">
+                <h3 class="text-2xl mb-6 border-b-2 border-solid border-gray-400 text-gray-600 font-light mb-1">My Life
+                  in a Nutshell</h3>
+              </div>
+
+              <div class="">
+                <p>I'm a developer born in Iran and founder of Delix.ir, Bytegate.io and Bobet.ir and co-founder of
+                  Smo.li.</p>
+                <p>I'm interested and skilled in different topics of Information Technology, including programming, web
+                  development, and computer and network security.</p>
+              </div>
+            </div>
+
+
+          </div>
+
+          <div class="w-full mb-4 flex-auto bg-white rounded-lg shadow-lg" style="height:400px;">
+
+            <div class="whoami p-4">
+              <div class="flex flex-initial">
+                <h3 class="text-2xl mb-6 border-b-2 border-solid border-gray-400 text-gray-600 font-light mb-1">Who am
+                  I?</h3>
+              </div>
+
+              <div class="">
+                <p>I'm a developer born in Iran and founder of Delix.ir, Bytegate.io and Bobet.ir and co-founder of
+                  Smo.li.</p>
+                <p>I'm interested and skilled in different topics of Information Technology, including programming, web
+                  development, and computer and network security.</p>
+              </div>
+
+<!--              <div class="title-container">-->
+<!--                <div>-->
+<!--                  <h3 class="title">-->
+<!--                    Our Projects-->
+<!--                  </h3>-->
+<!--                </div>-->
+<!--                <div class="filters">-->
+<!--                  <span class="filter" v-bind:class="{ active: currentFilter === 'ALL' }" v-on:click="setFilter('ALL')">ALL</span>-->
+<!--                  <span class="filter" v-bind:class="{ active: currentFilter === 'ART' }" v-on:click="setFilter('ART')">ART</span>-->
+<!--                  <span class="filter" v-bind:class="{ active: currentFilter === 'WORKSHOPS' }" v-on:click="setFilter('WORKSHOPS')">WORKSHOPS</span>-->
+<!--                  <span class="filter" v-bind:class="{ active: currentFilter === 'FUN' }" v-on:click="setFilter('DOODLES')">DOODLES</span>-->
+<!--                </div>-->
+<!--              </div>-->
+
+<!--              <transition-group class="projects" name="projects" >-->
+<!--                <div class="project" v-if="currentFilter === project.category || currentFilter === 'ALL'"-->
+<!--                     v-bind:key="project.title" v-for="project in projects">-->
+<!--                  <div class="project-image-wrapper">-->
+<!--                    <img class="project-image" v-bind:src="project.image">-->
+<!--                    <div class="gradient-overlay"></div>-->
+<!--                    <div class="circle">-->
+<!--                      <span class="project-title">{{project.title}}</span>-->
+<!--                    </div>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </transition-group>-->
+
+
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+      </div>
 
 
     </div>
@@ -886,10 +980,72 @@
 </template>
 
 <script>
+// import TweenMax from "gsap";
+import LeaderLine from 'leader-line-new';
+
 export default {
   name: "Resume2",
+  components: {
+
+  },
   data() {
-    return {}
+    return {
+      currentFilter: 'ALL',
+      projects: [
+        {title: "Artwork", image: "https://picsum.photos/g/200?image=122", category: 'ART'},
+        {title: "Charcoal", image: "https://picsum.photos/g/200?image=116", category: 'ART'},
+        {title: "Sketching", image: "https://picsum.photos/g/200?image=121", category: 'DOODLES'},
+        {title: "Acrillic", image: "https://picsum.photos/g/200?image=133", category: 'WORKSHOPS'},
+        {title: "Pencil", image: "https://picsum.photos/g/200?image=134", category: 'DOODLES'},
+        {title: "Pen", image: "https://picsum.photos/g/200?image=115", category: 'ART'},
+        {title: "Inking", image: "https://picsum.photos/g/200", category: 'WORKSHOPS'},
+      ]
+
+    }
+  },
+
+  created() {
+
+  },
+  mounted() {
+
+
+    this.drawline();
+
+    // this.drawline2();
+
+  },
+  methods: {
+    setFilter: function(filter) {
+      this.currentFilter = filter;
+    },
+
+    drawline() {
+      // eslint-disable-next-line no-unused-vars
+
+      const start = document.getElementById('to-timeline');
+      const end = document.getElementById('timeline');
+      const line = new LeaderLine(
+          {
+            start: start,
+            end: end,
+            size: 2,
+            // color     : this.$vuetify.theme.primary,
+            color: '#1976D2',
+            startLabel: LeaderLine.captionLabel('To the Journey ...'),
+          });
+    },
+    drawline2() {
+      // eslint-disable-next-line no-unused-vars
+      const start = document.getElementById('to-portfolio');
+      const end = document.getElementById('portfolio');
+      const line = new LeaderLine(
+          {
+            start: start,
+            end: end
+          }
+      );
+    }
   },
 }
 </script>
@@ -903,5 +1059,123 @@ export default {
           270deg, #66668d, #4389a2);
   background-size: cover;
 
+}
+
+
+
+
+
+.title-container {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.title {
+  font-family: 'Dawning of a New Day', cursive;
+  font-size:30pt;
+  font-weight:normal;
+}
+
+.project-title {
+  font-size:16pt
+}
+
+.filter {
+  font-family:arial;
+  padding: 6px 6px;
+  cursor:pointer;
+  border-radius: 6px;
+  transition: all 0.35s;
+}
+
+.filter.active {
+  box-shadow:0px 1px 3px 0px #00000026;
+}
+
+.filter:hover {
+  background:lightgray;
+}
+
+.projects {
+  margin-bottom:50px;
+  margin-top:25px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.projects-enter {
+  transform: scale(0.5) translatey(-80px);
+  opacity:0;
+}
+
+.projects-leave-to{
+  transform: translatey(30px);
+  opacity:0;
+}
+
+.projects-leave-active {
+  position: absolute;
+  z-index:-1;
+}
+
+.circle {
+  text-align:center;
+  position:absolute;
+  bottom:-38px;
+  left:40px;
+  width:100px;
+  height:100px;
+  border-radius:50px;
+  /* 	border:1px solid black; */
+  display:flex;
+  box-shadow: 0px -4px 3px 0px #494d3257;
+  justify-content:center;
+  align-items:center;
+  background-color:#fff;
+  /* 	box-shadow:0px -3px 3px #484848a6; */
+}
+
+.project {
+  transition: all .35s ease-in-out;
+  margin:10px;
+  box-shadow:0px 2px 8px lightgrey;
+  border-radius:3px;
+  width:180px;
+  height:200px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.project-image-wrapper {
+  position:relative;
+}
+
+.gradient-overlay {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:150px;
+  opacity:0.09;
+  background:
+      linear-gradient(to bottom, rgba(0,210,247,0.65) 0%,rgba(0,210,247,0.64) 1%,rgba(0,0,0,0) 100%),
+      linear-gradient(to top, rgba(247,0,156,0.65) 0%,rgba(247,0,156,0.64) 1%,rgba(0,0,0,0) 100%);
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+  border-top-left-radius:3px;
+  border-top-right-radius:3px;
+}
+
+.project-image {
+  width:100%;
+  height:150px;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  border-top-left-radius:3px;
+  border-top-right-radius:3px;
 }
 </style>
