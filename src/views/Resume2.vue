@@ -118,16 +118,49 @@
     <!--    ok voor nu-->
     <!--    <div class="w-10/12 mx-auto px-4">-->
 
+<!--    https://codepen.io/ScottWhittaker/pen/vrymgg -->
+<!--    <form class="flex flex-wrap bg-blue-500 p-4">-->
+<!--      &lt;!&ndash; Input container &ndash;&gt;-->
+<!--      <div class="w-full md:w-1/2 p-4">-->
+<!--        <div class="bg-red-500 p-4">-->
+<!--          <label for="input1">Label</label>-->
+<!--          <input type="text" name="input1" class="w-full p-2" value="Hello world1!">-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      &lt;!&ndash; Input container &ndash;&gt;-->
+<!--      <div class="w-full md:w-1/2 p-4">-->
+<!--        <div class="bg-red-500 p-4">-->
+<!--          <label for="input2">Label</label>-->
+<!--          <input type="text" name="input2" class="w-full p-2" value="Hello world2!">-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      &lt;!&ndash; Input container &ndash;&gt;-->
+<!--      <div class="w-full md:w-1/2 p-4">-->
+<!--        <div class="bg-red-500 p-4">-->
+<!--          <label for="input3">Label</label>-->
+<!--          <input type="text" name="input3" class="w-full p-2" value="Hello world3!">-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      &lt;!&ndash; Input container &ndash;&gt;-->
+<!--      <div class="w-full md:w-1/2 p-4">-->
+<!--        <div class="bg-red-500 p-4">-->
+<!--          <label for="input4">Label</label>-->
+<!--          <input type="text" name="input4" class="w-full p-2" value="Hello world4!">-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </form>-->
 
-    <div class="2xl:w-10/12 xl:w-full mx-auto px-4">
+<!--    <div class="2xl:w-10/12 xl:w-full mx-auto px-4">-->
+    <div class="w-full 2xl:w-10/12 mx-auto px-4">
+
       <!-- Grid wrapper -->
+<!--      <div class="-mx-4 flex flex-wrap">-->
       <div class="-mx-4 flex flex-wrap">
 
         <!-- Grid column 1 -->
-        <div class="flex flex-col p-4 w-4/12"
-             style="background-color: #424242!important; border-color: #424242!important;">
+<!--        <div class="flex flex-col p-4 w-4/12" style="background-color: #424242!important; border-color: #424242!important;">-->
+        <div class="flex p-4 w-full xl:w-4/12 " style="background-color: #424242!important; border-color: #424242!important;">
           <!-- Column contents -->
-
 
           <!--          <div class="flex-1 px-10 py-12 bg-white rounded-lg shadow-lg">-->
           <div class="flex-1 text-white">
@@ -415,12 +448,12 @@
 
           </div>
 
-
         </div>
 
         <!-- Grid column 2 -->
-        <div class="flex flex-col p-4 w-8/12"
-             style="background-color: #f5f5f5!important;border-color:#f5f5f5!important;">
+<!--        <div class="flex flex-col p-4 w-8/12" style="background-color: #f5f5f5!important;border-color:#f5f5f5!important;">-->
+        <div class="flex p-4 w-full xl:w-8/12" style="background-color: #f5f5f5!important;border-color:#f5f5f5!important;">
+
           <!-- Column contents -->
           <!--          <div class="flex-1 px-10 py-12 bg-white rounded-lg shadow-lg">-->
           <div class="flex-1 bg-white rounded-lg shadow-lg">
@@ -1061,6 +1094,8 @@ export default {
 
 }
 
+
+//
 
 
 
