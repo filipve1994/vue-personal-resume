@@ -1,164 +1,12 @@
 <template>
-  <!--  &lt;!&ndash; Container &ndash;&gt;-->
-  <!--  <div class="max-w-screen-xl mx-auto px-4">-->
-  <!--    &lt;!&ndash; Grid wrapper &ndash;&gt;-->
-  <!--    <div class="-mx-4 flex flex-wrap">-->
-  <!--      &lt;!&ndash; Grid column &ndash;&gt;-->
-  <!--      <div class="w-full flex flex-col p-4 sm:w-1/2 lg:w-1/3">-->
-  <!--        &lt;!&ndash; Column contents &ndash;&gt;-->
-  <!--        <div class="flex-1 px-10 py-12 bg-white rounded-lg shadow-lg">-->
-  <!--          &lt;!&ndash; Card contents &ndash;&gt;-->
-  <!--        </div>-->
-  <!--      </div>-->
-  <!--      &lt;!&ndash; Grid column &ndash;&gt;-->
-  <!--      <div class="w-full flex flex-col p-4 sm:w-1/2 lg:w-1/3">-->
-  <!--        &lt;!&ndash; Column contents &ndash;&gt;-->
-  <!--        <div class="flex-1 px-10 py-12 bg-white rounded-lg shadow-lg">-->
-  <!--          &lt;!&ndash; Card contents &ndash;&gt;-->
-  <!--        </div>-->
-  <!--      </div>-->
-  <!--      &lt;!&ndash; Grid column &ndash;&gt;-->
-  <!--      <div class="w-full flex flex-col p-4 sm:w-1/2 lg:w-1/3">-->
-  <!--        &lt;!&ndash; Column contents &ndash;&gt;-->
-  <!--        <div class="flex-1 px-10 py-12 bg-white rounded-lg shadow-lg">-->
-  <!--          &lt;!&ndash; Card contents &ndash;&gt;-->
-  <!--        </div>-->
-  <!--      </div>-->
-  <!--    </div>-->
-  <!--  </div>-->
-
-
-  <!--  &lt;!&ndash; Container &ndash;&gt;-->
-  <!--  <div class="max-w-screen-xl mx-auto px-4">-->
-  <!--    &lt;!&ndash; Grid wrapper &ndash;&gt;-->
-  <!--    <div class="-mx-4 flex flex-wrap">-->
-
-  <!--      &lt;!&ndash; Grid column &ndash;&gt;-->
-  <!--      <div class="w-full flex flex-col p-4 sm:w-1/2 lg:w-1/3" style="background-color: #e76e3c; height: 350px;">-->
-  <!--        &lt;!&ndash; Column contents &ndash;&gt;-->
-  <!--        <div class="flex-1 px-10 py-12 bg-white rounded-lg shadow-lg">-->
-  <!--          &lt;!&ndash; Card contents &ndash;&gt;-->
-  <!--        </div>-->
-  <!--      </div>-->
-
-  <!--      &lt;!&ndash; Grid column &ndash;&gt;-->
-  <!--      <div class="w-full flex flex-col p-4 sm:w-1/2 lg:w-1/3" style="background-color: #e76e3c; height: 250px;">-->
-  <!--        &lt;!&ndash; Column contents &ndash;&gt;-->
-  <!--        <div class="flex-1 px-10 py-12 bg-white rounded-lg shadow-lg">-->
-  <!--          &lt;!&ndash; Card contents &ndash;&gt;-->
-  <!--        </div>-->
-  <!--      </div>-->
-
-  <!--    </div>-->
-
-  <!--  </div>-->
-
-
-  <!--  &lt;!&ndash; Container &ndash;&gt;-->
-  <!--&lt;!&ndash;  <div class="max-w-screen-2xl mx-auto px-4">&ndash;&gt;-->
-  <!--  <div class="w-10/12 mx-auto px-4">-->
-  <!--    &lt;!&ndash; Grid wrapper &ndash;&gt;-->
-  <!--    <div class="-mx-4 flex flex-wrap">-->
-
-  <!--      &lt;!&ndash; Grid column &ndash;&gt;-->
-  <!--      <div class="flex flex-col p-4 w-1/2" style="background-color: #e76e3c; height: 350px;">-->
-  <!--        &lt;!&ndash; Column contents &ndash;&gt;-->
-  <!--        <div class="flex-1 px-10 py-12 bg-white rounded-lg shadow-lg">-->
-  <!--          &lt;!&ndash; Card contents &ndash;&gt;-->
-  <!--        </div>-->
-  <!--      </div>-->
-
-  <!--      &lt;!&ndash; Grid column &ndash;&gt;-->
-  <!--      <div class="flex flex-col p-4 w-1/2" style="background-color: #e76e3c; height: 250px;">-->
-  <!--        &lt;!&ndash; Column contents &ndash;&gt;-->
-  <!--        <div class="flex-1 px-10 py-12 bg-white rounded-lg shadow-lg">-->
-  <!--          &lt;!&ndash; Card contents &ndash;&gt;-->
-  <!--        </div>-->
-  <!--      </div>-->
-
-  <!--    </div>-->
-
-  <!--  </div>-->
-
-
-  <!--https://laravel-news.com/tailwind-css-tips-and-tricks -->
-  <!-- Container -->
-  <!--  <div class="max-w-screen-2xl mx-auto px-4">-->
-  <!--  <div class="w-10/12 mx-auto px-4">-->
-  <!--    &lt;!&ndash; Grid wrapper &ndash;&gt;-->
-  <!--    <div class="-mx-4 flex flex-wrap">-->
-
-  <!--      &lt;!&ndash; Grid column &ndash;&gt;-->
-  <!--      <div class="flex flex-col p-4 w-1/2" style="background-color: #e76e3c;">-->
-  <!--        &lt;!&ndash; Column contents &ndash;&gt;-->
-  <!--        <div class="flex-1 px-10 py-12 bg-white rounded-lg shadow-lg">-->
-  <!--          &lt;!&ndash; Card contents &ndash;&gt;-->
-  <!--        </div>-->
-  <!--      </div>-->
-
-  <!--      &lt;!&ndash; Grid column &ndash;&gt;-->
-  <!--      <div class="flex flex-col p-4 w-1/2" style="background-color: #e76e3c;">-->
-  <!--        &lt;!&ndash; Column contents &ndash;&gt;-->
-  <!--        <div class="flex-1 px-10 py-12 bg-white rounded-lg shadow-lg">-->
-  <!--          &lt;!&ndash; Card contents &ndash;&gt;-->
-  <!--        </div>-->
-  <!--      </div>-->
-
-  <!--    </div>-->
-
-  <!--  </div>-->
-
-
-  <!--  -->
 
   <div class="resume">
-    <!-- Container -->
-    <!--  <div class="max-w-screen-2xl mx-auto px-4">-->
-
-    <!--    ok voor nu-->
-    <!--    <div class="w-10/12 mx-auto px-4">-->
-
-<!--    https://codepen.io/ScottWhittaker/pen/vrymgg -->
-<!--    <form class="flex flex-wrap bg-blue-500 p-4">-->
-<!--      &lt;!&ndash; Input container &ndash;&gt;-->
-<!--      <div class="w-full md:w-1/2 p-4">-->
-<!--        <div class="bg-red-500 p-4">-->
-<!--          <label for="input1">Label</label>-->
-<!--          <input type="text" name="input1" class="w-full p-2" value="Hello world1!">-->
-<!--        </div>-->
-<!--      </div>-->
-<!--      &lt;!&ndash; Input container &ndash;&gt;-->
-<!--      <div class="w-full md:w-1/2 p-4">-->
-<!--        <div class="bg-red-500 p-4">-->
-<!--          <label for="input2">Label</label>-->
-<!--          <input type="text" name="input2" class="w-full p-2" value="Hello world2!">-->
-<!--        </div>-->
-<!--      </div>-->
-<!--      &lt;!&ndash; Input container &ndash;&gt;-->
-<!--      <div class="w-full md:w-1/2 p-4">-->
-<!--        <div class="bg-red-500 p-4">-->
-<!--          <label for="input3">Label</label>-->
-<!--          <input type="text" name="input3" class="w-full p-2" value="Hello world3!">-->
-<!--        </div>-->
-<!--      </div>-->
-<!--      &lt;!&ndash; Input container &ndash;&gt;-->
-<!--      <div class="w-full md:w-1/2 p-4">-->
-<!--        <div class="bg-red-500 p-4">-->
-<!--          <label for="input4">Label</label>-->
-<!--          <input type="text" name="input4" class="w-full p-2" value="Hello world4!">-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </form>-->
-
-<!--    <div class="2xl:w-10/12 xl:w-full mx-auto px-4">-->
     <div class="w-full 2xl:w-10/12 mx-auto px-4">
 
       <!-- Grid wrapper -->
-<!--      <div class="-mx-4 flex flex-wrap">-->
       <div class="-mx-4 flex flex-wrap">
 
         <!-- Grid column 1 -->
-<!--        <div class="flex flex-col p-4 w-4/12" style="background-color: #424242!important; border-color: #424242!important;">-->
         <div class="flex p-4 w-full xl:w-4/12 " style="background-color: #424242!important; border-color: #424242!important;">
           <!-- Column contents -->
 
@@ -173,14 +21,15 @@
               <div class="text-center">
                 <div class="inline-flex items-center justify-center text-center align-middle relative"
                      style="height: 120px; width: 120px;">
-                  <img alt="Vue logo" src="../assets/logo.png" class="rounded-full"/>
+                  <img alt="Vue logo" src="../../assets/logo.png" class="rounded-full"/>
+<!--                  <img :alt="images.logo.alt" :src="images.bgImages.path" class="rounded-full"/>-->
                 </div>
               </div>
 
               <div>
                 <div class="text-center mt-4 mb-6">
-                  <h1 class="text-3xl">Filip <span class="text-lightBlue-500 font-bold">Vanden Eynde</span></h1>
-                  <p>A challenge-loving web developer</p>
+                  <h1 class="text-3xl">{{ person.firstname }} <span class="text-lightBlue-500 font-bold">{{ person.lastname }}</span></h1>
+                  <p>{{person.subtitle}}</p>
                 </div>
               </div>
 
@@ -213,7 +62,9 @@
                   <div>
                     <!--                  <span class="block text-base font-bold">Email: <span class="block text-gray-500">filipve@outlook.com</span></span>-->
                     <span class="block text-base ">Email: <span
-                        class="font-normal text-gray-500">filipve@outlook.com</span></span>
+                        class="font-normal text-gray-500">
+                      <a :href="'mailto:'+person.contactinfo.email">{{person.contactinfo.email}}</a></span>
+                    </span>
                   </div>
                 </div>
               </div>
@@ -227,7 +78,10 @@
                   </div>
                   <div>
                     <span class="block text-base ">Website: <span
-                        class="font-normal text-gray-500">amirreza.in</span></span>
+                        class="font-normal text-gray-500">
+                      <a :href="person.contactinfo.website">{{person.contactinfo.website}}</a>
+                    </span>
+                    </span>
                   </div>
                 </div>
               </div>
@@ -240,7 +94,7 @@
                     <font-awesome-icon :icon="['fas', 'birthday-cake']"></font-awesome-icon>
                   </div>
                   <div>
-                    <span class="block text-base ">Birth Date: <span class="font-normal text-gray-500">20/04/1994</span></span>
+                    <span class="block text-base ">Birth Date: <span class="font-normal text-gray-500">{{person.birthDay.fullDate}}</span></span>
                   </div>
                 </div>
               </div>
@@ -254,7 +108,7 @@
                   </div>
                   <div>
                     <span class="block text-base ">Location: <span
-                        class="font-normal text-gray-500">Belgium</span></span>
+                        class="font-normal text-gray-500">{{ person.contactinfo.location }}</span></span>
                   </div>
                 </div>
               </div>
@@ -276,58 +130,19 @@
                 </div>
               </div>
 
-              <div>
+              <div v-for="(social, $index) in socials" :key="$index">
+<!--                <p>{{social}}</p>-->
                 <!--              <div class="flex items-center">-->
                 <div class="flex py-4">
                   <div
                       class="inline-flex flex-shrink-0 items-center justify-center leading-none align-text-bottom text-white mr-6 text-xl">
-                    <font-awesome-icon :icon="['fab', 'github']"></font-awesome-icon>
+                    <font-awesome-icon :icon="[social.iconFontAwesome.type, social.iconFontAwesome.name]"></font-awesome-icon>
                   </div>
                   <div>
                     <p><a href="#" target="_blank" class="font-normal text-gray-500">github.com/AmirrezaNasiri</a></p>
                   </div>
                 </div>
               </div>
-
-              <div>
-                <!--              <div class="flex items-center">-->
-                <div class="flex py-4">
-                  <div
-                      class="inline-flex flex-shrink-0 items-center justify-center leading-none align-text-bottom text-white mr-6 text-xl">
-                    <font-awesome-icon :icon="['fab', 'linkedin']"></font-awesome-icon>
-                  </div>
-                  <div>
-                    <p><a href="#" target="_blank" class="font-normal text-gray-500">github.com/AmirrezaNasiri</a></p>
-                  </div>
-                </div>
-              </div>
-
-              <div>
-                <!--              <div class="flex items-center">-->
-                <div class="flex py-4">
-                  <div
-                      class="inline-flex flex-shrink-0 items-center justify-center leading-none align-text-bottom text-white mr-6 text-xl">
-                    <font-awesome-icon :icon="['fab', 'twitter']"></font-awesome-icon>
-                  </div>
-                  <div>
-                    <p><a href="#" target="_blank" class="font-normal text-gray-500">github.com/AmirrezaNasiri</a></p>
-                  </div>
-                </div>
-              </div>
-
-              <div>
-                <!--              <div class="flex items-center">-->
-                <div class="flex py-4">
-                  <div
-                      class="inline-flex flex-shrink-0 items-center justify-center leading-none align-text-bottom text-white mr-6 text-xl">
-                    <font-awesome-icon :icon="['fab', 'instagram']"></font-awesome-icon>
-                  </div>
-                  <div>
-                    <p><a href="#" target="_blank" class="font-normal text-gray-500">github.com/AmirrezaNasiri</a></p>
-                  </div>
-                </div>
-              </div>
-
 
             </div>
 
@@ -347,47 +162,14 @@
               </div>
 
               <div class="py-4 flex flex-wrap text-white">
-                <span class="m-1 bg-gray-500 hover:bg-gray-600 rounded-full px-2  text-sm leading-loose cursor-pointer">
-                  <span class="mr-1"> <font-awesome-icon :icon="['fas', 'bullseye']"></font-awesome-icon> </span> Getting out of the Safe Zone
-                </span>
-                <span class="m-1 bg-gray-500 hover:bg-gray-600 rounded-full px-2  text-sm leading-loose cursor-pointer">
-                  <span class="mr-1"> <font-awesome-icon :icon="['fas', 'biohazard']"></font-awesome-icon> </span> Challenges
-                </span>
-                <span class="m-1 bg-gray-500 hover:bg-gray-600 rounded-full px-2  text-sm leading-loose cursor-pointer">
-                  <span class="mr-1"> <font-awesome-icon :icon="['fas', 'biking']"></font-awesome-icon> </span> Cycling
-                </span>
-                <span class="m-1 bg-gray-500 hover:bg-gray-600 rounded-full px-2  text-sm leading-loose cursor-pointer">
-                  <span class="mr-1"> <font-awesome-icon :icon="['fas', 'mountain']"></font-awesome-icon> </span> Nature
-                </span>
-                <span class="m-1 bg-gray-500 hover:bg-gray-600 rounded-full px-2  text-sm leading-loose cursor-pointer">
-                  <span class="mr-1"> <font-awesome-icon :icon="['fas', 'skiing']"></font-awesome-icon> </span> Skiing
-                </span>
-                <span class="m-1 bg-gray-500 hover:bg-gray-600 rounded-full px-2  text-sm leading-loose cursor-pointer">
-                  <span class="mr-1"> <font-awesome-icon :icon="['fas', 'magic']"></font-awesome-icon> </span> Hacking Stuff
-                </span>
-                <span class="m-1 bg-gray-500 hover:bg-gray-600 rounded-full px-2  text-sm leading-loose cursor-pointer">
-                  <span class="mr-1"> <font-awesome-icon
-                      :icon="['fas', 'chalkboard-teacher']"></font-awesome-icon> </span> Teaching
-                </span>
-                <span class="m-1 bg-gray-500 hover:bg-gray-600 rounded-full px-2  text-sm leading-loose cursor-pointer">
-                  <span class="mr-1"> <font-awesome-icon :icon="['fas', 'users']"></font-awesome-icon> </span> Leadership
-                </span>
-                <span class="m-1 bg-gray-500 hover:bg-gray-600 rounded-full px-2  text-sm leading-loose cursor-pointer">
-                  <span class="mr-1"> <font-awesome-icon :icon="['fas', 'music']"></font-awesome-icon> </span> Music
-                </span>
-                <span class="m-1 bg-gray-500 hover:bg-gray-600 rounded-full px-2  text-sm leading-loose cursor-pointer">
-                  <span class="mr-1"> <font-awesome-icon :icon="['fas', 'book-open']"></font-awesome-icon> </span> Books
-                </span>
-                <span class="m-1 bg-gray-500 hover:bg-gray-600 rounded-full px-2  text-sm leading-loose cursor-pointer">
-                  <span class="mr-1"> <font-awesome-icon :icon="['fas', 'bug']"></font-awesome-icon> </span> Making Bugs!
-                </span>
-                <span class="m-1 bg-gray-500 hover:bg-gray-600 rounded-full px-2  text-sm leading-loose cursor-pointer">
-                  <span class="mr-1"> <font-awesome-icon :icon="['fas', 'code']"></font-awesome-icon> </span> Coding
-                </span>
 
-
+                 <span class="m-1 bg-gray-500 hover:bg-gray-600 rounded-full px-2  text-sm leading-loose cursor-pointer"
+                 v-for="(hobby, $index) in hobbies" :key="$index"
+                 >
+<!--                   {{hobby}}-->
+                  <span class="mr-1"> <font-awesome-icon :icon="[hobby.iconFontAwesome.type, hobby.iconFontAwesome.name]"></font-awesome-icon> </span> {{hobby.name}}
+                </span>
               </div>
-
             </div>
 
             <!-- end part 4 -->
@@ -1015,11 +797,11 @@
 <script>
 // import TweenMax from "gsap";
 import LeaderLine from 'leader-line-new';
-import datajsimport from "./resumedata";
+import datajsimport from "../resumedata";
 
 
 export default {
-  name: "Resume2",
+  name: "Resume3",
   components: {
 
   },
