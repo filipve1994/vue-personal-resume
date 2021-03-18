@@ -3,6 +3,8 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </div>
+
+  <h1 class="py-2">test tailwindcss</h1>
   <router-view />
 </template>
 
