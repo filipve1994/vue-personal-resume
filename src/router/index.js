@@ -3,14 +3,15 @@ import Home from "../views/Home.vue";
 import Resume from "@/views/Resume";
 import Resume2 from "@/views/Resume2";
 import Resume3 from "@/views/resume3/Resume3";
+import Resume5 from "@/views/resume5/Resume5";
 // import Resume4 from "@/views/resume4/Resume4";
 
-const routes = [
-  // {
-  //   path: "/",
-  //   name: "Home",
-  //   component: Home,
-  // },
+export const routes = [
+  {
+    path: "/",
+    name: "Home",
+    component: Home,
+  },
   // {
   //   path: "/",
   //   name: "Resume",
@@ -18,7 +19,7 @@ const routes = [
   // },
   {
     path: "/resume2",
-    alias: '/',
+    // alias: '/',
     name: "Resume2",
     component: Resume2,
   },
@@ -32,6 +33,11 @@ const routes = [
   //   name: "Resume4",
   //   component: Resume4,
   // },
+  {
+    path: "/resume5",
+    name: "Resume5",
+    component: Resume5,
+  },
   {
     path: "/about",
     name: "About",

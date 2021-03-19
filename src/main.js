@@ -9,6 +9,8 @@ import store from "./store";
 // import "@fontsource/roboto/700.css";
 // import "@fontsource/roboto/900.css";
 import './assets/styles/index.css';
+import "@fortawesome/fontawesome-free/js/all"
+
 import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
 import {library} from '@fortawesome/fontawesome-svg-core';
 import {
