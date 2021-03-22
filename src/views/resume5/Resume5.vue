@@ -7,7 +7,7 @@
 
         <!-- Grid column 1 -->
         <!--        <div class="flex p-4 w-full xl:w-6/12">-->
-        <div class="flex p-4 w-6/12">
+        <div class="flex p-4 w-full xl:w-6/12">
 
           <div class="flex-1">
 
@@ -23,7 +23,7 @@
 
         <!-- Grid column 2 -->
         <!--        <div class="flex p-4 w-full xl:w-6/12">-->
-        <div class="flex p-4 w-6/12">
+        <div class="flex p-4 w-full xl:w-6/12">
 
           <div class="flex-1">
 
@@ -71,7 +71,7 @@
 
       <div class="flex flex-wrap -mx-3">
 
-        <div class="my-3 px-3 overflow-hidden w-1/3" v-for="n in 6">
+        <div class="my-3 px-3 overflow-hidden w-full xl:w-1/3" v-for="n in 6">
           <div class="mb-5 text-center bg-blueGray-100 hover:bg-emerald-700 shadow-md"
                style="    padding: 25px 20px;">
 
